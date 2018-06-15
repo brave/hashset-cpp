@@ -6,7 +6,7 @@ source_set("hashset-cpp") {
   public_configs = [ ":external_config" ]
 
   sources = [
-    "HashSet.cpp",
-    "HashSet.h",
+    "hash_set.cc",
+    "hash_set.h",
   ]
 }
