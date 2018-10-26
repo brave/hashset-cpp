@@ -8,10 +8,10 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "node-gyp": "^3.4.0",
-    "pre-commit": "^1.1.2",
     "cppunitlite": "^1.0.0",
-    "nan": "^2.2.1"
+    "nan": "^2.2.1",
+    "node-gyp": "^3.8.0",
+    "pre-commit": "^1.1.2"
   },
   "scripts": {
     "build": "make",
