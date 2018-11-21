@@ -8,7 +8,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "cppunitlite": "^1.0.0",
+    "cppunitlite": "brave/CppUnitLite",
     "nan": "^2.2.1",
     "node-gyp": "^3.8.0",
     "pre-commit": "^1.1.2"
@@ -17,6 +17,7 @@
     "build": "make",
     "install": "node-gyp rebuild",
     "test": "make test",
+    "sample": "make sample",
     "lint": "./scripts/cpplint.py"
   },
   "repository": {

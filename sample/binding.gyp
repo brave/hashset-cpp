@@ -6,7 +6,9 @@
       "../main.cc",
       "../hash_set.cc",
       "../hash_set.h",
-      "../test/example_data.h"
+      "../test/example_data.h",
+      "../test/hashFn.cc",
+      "../test/hashFn.h",
     ],
     "include_dirs": [
       "..",
@@ -24,6 +26,7 @@
       "OTHER_LDFLAGS": ["-stdlib=libc++"],
       "MACOSX_DEPLOYMENT_TARGET": "10.9",
       "GCC_ENABLE_CPP_EXCEPTIONS": "YES",
+      "ARCHS": ["x86_64"],
     },
   }]
 }
