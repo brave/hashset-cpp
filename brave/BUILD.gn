@@ -11,5 +11,7 @@ source_set("hashset-cpp") {
   sources = [
     "../hash_set.cc",
     "../hash_set.h",
+    "../hashFn.cc",
+    "../hashFn.h",
   ]
 }

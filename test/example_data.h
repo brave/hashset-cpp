@@ -8,7 +8,7 @@
 
 #include <math.h>
 #include <string.h>
-#include "./hashFn.h"
+#include "../hashFn.h"
 
 static HashFn h(19);
 

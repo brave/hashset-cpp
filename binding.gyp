@@ -7,8 +7,8 @@
       "hash_set_wrap.h",
       "hash_set.cc",
       "hash_set.h",
-      "test/hashFn.cc",
-      "test/hashFn.h",
+      "hashFn.cc",
+      "hashFn.h",
     ],
     "include_dirs": [
       ".",

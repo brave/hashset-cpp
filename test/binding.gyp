@@ -3,8 +3,8 @@
     "target_name": "test",
     "type": "executable",
     "sources": [
-      "./hashFn.cc",
-      "./hashFn.h",
+      "../hashFn.cc",
+      "../hashFn.h",
       "./test_main.cc",
       "./hash_set_test.cc",
       "./example_data.h",
