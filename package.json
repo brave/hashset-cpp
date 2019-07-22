@@ -1,6 +1,7 @@
 {
   "name": "hashset-cpp",
   "main": "./build/Release/hashset-cpp",
+  "private": true,
   "version": "2.2.0",
   "description": "",
   "directories": {
